@@ -1,0 +1,27 @@
+@use 'sass:color';
+
+$green: #50806B;
+$bggreen: #e8edde;
+$lgreen: #5bc08A;
+$black: #000;
+$red: #d11f1f;
+$textgrey: #7C8087;
+$white: #fff;
+
+.button {
+    display: inline-block; //kad klausytu width, height etc.
+    font-weight: 600;
+
+}
+.white-btn {
+    background-color: $white;
+    color: $black;
+    width: 262px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 22px;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    line-height: 70px;
+
+}
